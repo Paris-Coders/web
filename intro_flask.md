@@ -76,6 +76,8 @@ Taper les lignes ci-dessous
 
 Sauvegarder le fichier en pressant la touche `esc` suivi de la touche `:wq`
 
+Pour plus d'infos sur `vi` --> http://wiki.linux-france.org/wiki/Utilisation_de_vi
+
 Voilà, ouf ! Il est temps d'éxécuter votre fichier en tapant 
 
     python flasktest.py
