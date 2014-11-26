@@ -41,15 +41,15 @@ Créer un répertoire python et aller dessus une fois crée
     mkdir python
     cd python
     
-Pour l’installation de Flask 
+Pour l’installation de Flask , il nous faut cet outil magique qui se nomme `pip`
 
     wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
 	
-Vérifier que le fichier est bien present via un ls 
+Vérifier que le fichier `ez_setup.py` est bien present via un ls 
 
     ls –Altr
     
-Si tout est présent, il faut exécuter le script que vous avez téléchargé
+Si tout est présent, on peut exécuter le script que vous avez téléchargé
 
     python ez_setup.py
 
