@@ -74,7 +74,7 @@ Taper les lignes ci-dessous
     def hello_world():
         return 'hello world!'
 
-Sauvegarder le fichier en pressant la touche `esc` suivi de la touche `:wq`
+Sauvegarder le fichier en pressant la touche `esc` suivi des touches `:wq`
 
 Pour plus d'infos sur `vi` --> http://wiki.linux-france.org/wiki/Utilisation_de_vi
 
