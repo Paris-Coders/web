@@ -1,8 +1,8 @@
-# Intro au framework Flask avec Installation et mise en page de la première page HTML : A la sécouverte du web
+# Intro au framework Flask avec Installation et mise en page de la première page HTML : A la découverte du web , des éditeurs de texte comme Vi et 
 
 **Qu’est ce qu’un framework ?**
 
-Un framework ,c’est  une bibliothèque ou un ensemble de bibliothèque facilitant le développement logiciel. Le développement logiciel va être la création d’un site web avec du HTML et du javascript entre autres.
+Un framework, c’est  une bibliothèque ou un ensemble de bibliothèque facilitant le développement logiciel. Le développement logiciel va être la création d’un site web avec du HTML et du javascript entre autres.
 
 ##Installation de Flask :
 
@@ -57,4 +57,35 @@ Vous y êtes Presque ! Tapez
 
     pip install flask
    
-Si Flask s’installe correctement , vous devriez voir les librairies suivantes s’installer : Werkzeug et Jinja2
+Si Flask s’installe correctement , vous devriez voir les librairies suivantes s’installer : **Werkzeug** et **Jinja2**
+
+##Votre premier script sous Flask
+
+Vous y êtes, l'écriture de votre premier script sous `flask`. Dans le répertoire `python` crée précédemment, tapez les commandes suivantes 
+
+    vi flasktest.py
+    
+Taper les lignes ci-dessous 
+
+    from flask import Flask
+    app = Flask(__name__)
+
+    @app.route('/')
+    def hello_world():
+        return 'hello world!'
+
+Sauvegarder le fichier en pressant la touche `esc` suivi de la touche `:wq`
+
+Voilà, ouf ! Il est temps d'éxécuter votre fichier en tapant 
+
+    python flasktest.py
+    
+Vous devriez obtenir cela 
+
+    * Running on http://127.0.0.1:5000/
+    * Restarting with reloader
+
+Faites un copié-collé de `http://127.0.0.1:5000/`dans votre browser web et vous devriez obtenir ça (voir en bas)
+
+
+
