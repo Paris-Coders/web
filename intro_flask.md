@@ -1,14 +1,15 @@
-# Intro au framework Flask avec Installation et mise en page de la première page HTML (Découverte du web)
+# Intro au framework Flask avec Installation et mise en page de la première page HTML : A la sécouverte du web
 
 **Qu’est ce qu’un framework ?**
 
 Un framework ,c’est  une bibliothèque ou un ensemble de bibliothèque facilitant le développement logiciel. Le développement logiciel va être la création d’un site web avec du HTML et du javascript entre autres.
 
-Installation de Flask :
+##Installation de Flask :
 
-Sous windows :
+###Sous Windows :
 
-Très important !!! : Si vous avez une version de Python 2.7 installée sur vos machines , DESINSTALLEZ là et REDEMARREZ votre machine.
+**Très important !!! : Si vous avez une version de Python 2.7 installée sur vos machines , DESINSTALLEZ là et REDEMARREZ votre machine.**
+
 Vous qui possédez un ordinateur sous Windows , l’installation peut se révéler ardue. C’est pour cela que je commence par vous.
 Il existe plusieurs façons pour installer python mais en regardant et en cherchant beaucoup, la référence qui s’impose est cygwin.
 
@@ -33,7 +34,7 @@ Cygwin comme vous avez pu le comprendre , est un émulateur linux. Imparfait cer
 
 La partie la plus dure est faite pour vous qui tournez sur Windows. Vous avez un environnement commun avec ceux qui tournent sur Mac ou Linux.
 
-La même chose pour tout le monde 
+###Sous Windows, MacOs et Linux
 
 Créer un répertoire python et aller dessus une fois crée
 
@@ -48,7 +49,7 @@ Vérifier que le fichier est bien present via un ls
 
     ls –Altr
     
-Si tout est présent, il faut exécuter le script
+Si tout est présent, il faut exécuter le script que vous avez téléchargé
 
     python ez_setup.py
 
