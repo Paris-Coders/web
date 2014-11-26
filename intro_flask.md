@@ -1,4 +1,4 @@
-# Intro au framework Flask avec Installation et mise en page de la première page HTML : A la découverte du web , des éditeurs de texte comme Vi et 
+# Intro au framework Flask avec Installation et mise en page de la première page HTML : A la découverte du web et de l'éditeur de texte vi 
 
 **Qu’est ce qu’un framework ?**
 
