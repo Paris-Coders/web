@@ -36,7 +36,9 @@ La partie la plus dure est faite pour vous qui tournez sur Windows. Vous avez un
 
 ###Sous Windows, MacOs et Linux
 
-Créer un répertoire python et aller dessus une fois crée
+Pour ceux qui sont sous Mac et Linux, ouvrez un terminal, et pour ceux qui sont sur Windows, Cygwin est déjà ouvert.
+
+Créer un répertoire python et aller dessus , une fois crée
 
     mkdir python
     cd python
