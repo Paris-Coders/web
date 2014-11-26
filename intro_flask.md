@@ -32,7 +32,7 @@ Une fois l’installation terminée, démarrez une fenêtre cygwin.
 
 Cygwin comme vous avez pu le comprendre , est un émulateur linux. Imparfait certes mais pour installer Python et Flask sur Windows, c’est le plus facile et le moins contraignant , du moins pour moi (test fait via ma machine virtuelle et ma machine au travail tournant sur windows) .
 
-La partie la plus dure est faite pour vous qui tournez sur Windows. Vous avez un environnement commun avec ceux qui tournent sur Mac ou Linux.
+La partie la plus dure est faite pour vous qui tournez sur Windows. Vous avez un environnement commun avec ceux qui tournent sur Mac ou Linux. Lancer une fenêtre Cygwin.
 
 ###Sous Windows, MacOs et Linux
 
