@@ -1,6 +1,6 @@
-Intro au framework Flask avec Installation et mise en page de la première page HTML (Découverte du web)
+# Intro au framework Flask avec Installation et mise en page de la première page HTML (Découverte du web)
 
-Qu’est ce qu’un framework ?
+**Qu’est ce qu’un framework ?**
 
 Un framework ,c’est  une bibliothèque ou un ensemble de bibliothèque facilitant le développement logiciel. Le développement logiciel va être la création d’un site web avec du HTML et du javascript entre autres.
 
@@ -11,9 +11,10 @@ Sous windows :
 Très important !!! : Si vous avez une version de Python 2.7 installée sur vos machines , DESINSTALLEZ là et REDEMARREZ votre machine.
 Vous qui possédez un ordinateur sous Windows , l’installation peut se révéler ardue. C’est pour cela que je commence par vous.
 Il existe plusieurs façons pour installer python mais en regardant et en cherchant beaucoup, la référence qui s’impose est cygwin.
+
 Télécharger Cygwin  ici -- > https://cygwin.com/setup-x86.exe
-Une fois téléchargé, commencez l’installation 
-Choisissez le package python
+
+Une fois téléchargé, commencez l’installation et choisissez le package python comme dans l'écran ci-dessous
 
 ![Alt text](https://raw.githubusercontent.com/kwokandy/captures/master/python.png "Python")
 
