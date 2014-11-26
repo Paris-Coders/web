@@ -13,33 +13,46 @@ Vous qui possédez un ordinateur sous Windows , l’installation peut se révél
 Il existe plusieurs façons pour installer python mais en regardant et en cherchant beaucoup, la référence qui s’impose est cygwin.
 Télécharger Cygwin  ici -- > https://cygwin.com/setup-x86.exe
 Une fois téléchargé, commencez l’installation 
-Choisissez le package python et le package wget , comme dans les écrans ci-dessous :
+Choisissez le package python
 
 ![Alt text](https://raw.githubusercontent.com/kwokandy/captures/master/python.png "Python")
 
-Python
+ Choisissez ensuite le package wget
 
 ![Alt text](https://raw.githubusercontent.com/kwokandy/captures/master/wget.png "wget")
 
-Wget
+Et enfin,  , finissez l’installation
 
 ![Alt text](https://raw.githubusercontent.com/kwokandy/captures/master/install.png "install")
 
-Continuez l’installation
  
-Une fois l’installation terminée, démarrez une fenêtre cygwin. Si vous n’avez pas tout suivi jusqu’à présent, cygwin est un émulateur linux. Imparfait certes mais si vous voulez installer Python et Flask, c’est le plus facile et le moins contraignant , du moins pour moi (test fait via ma machine virtuelle et ma machine au travail tournant sur windows) .
+Une fois l’installation terminée, démarrez une fenêtre cygwin. 
+
+Cygwin comme vous avez pu le comprendre , est un émulateur linux. Imparfait certes mais pour installer Python et Flask sur Windows, c’est le plus facile et le moins contraignant , du moins pour moi (test fait via ma machine virtuelle et ma machine au travail tournant sur windows) .
+
 La partie la plus dure est faite pour vous qui tournez sur Windows. Vous avez un environnement commun avec ceux qui tournent sur Mac ou Linux.
+
 La même chose pour tout le monde 
-Créer un répertoire python e https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.pyt aller dessus une fois crée
-	mkdir python
-	cd python
+
+Créer un répertoire python et aller dessus une fois crée
+
+    mkdir python
+    cd python
+    
 Pour l’installation de Flask 
-	wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
+
+    wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
+	
 Vérifier que le fichier est bien present via un ls 
-	ls –Altr
+
+    ls –Altr
+    
 Si tout est présent, il faut exécuter le script
-	python ez_setup.py
+
+    python ez_setup.py
 
 Vous y êtes Presque ! Tapez 
-	Pip install flask
+
+    pip install flask
+   
 Si Flask s’installe correctement , vous devriez voir les librairies suivantes s’installer : Werkzeug et Jinja2
