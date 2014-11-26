@@ -87,5 +87,6 @@ Vous devriez obtenir cela
 
 Faites un copié-collé de `http://127.0.0.1:5000/`dans votre browser web et vous devriez obtenir ça (voir en bas)
 
+![Alt text](https://raw.githubusercontent.com/kwokandy/captures/master/helloworld.png "hello")
 
 
