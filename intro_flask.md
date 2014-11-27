@@ -93,4 +93,64 @@ Faites un copié-collé de `http://127.0.0.1:5000/`dans votre browser web et vou
 
 ![Alt text](https://raw.githubusercontent.com/kwokandy/captures/master/helloworld.png "hello")
 
+##Ta première page HTML
+
+Pour créer votre première page 
+
+Il te faut créer un répertoire template 
+    
+    mkdir templates
+
+Une fois , fait, créer une page html
+
+    vi first.html
+    
+Et mettez le code que vous souhaitez, moi j'ai mis ça 
+
+    <!DOCTYPE html>
+    <html>
+    
+    <body>
+    
+    <h1>Ma 1ere page</h1>
+    
+    <p>Mon 1er paragraphe</p>
+    
+    <ol>
+    <li>text</li>
+    <li>text</li>
+    <li>text</li>
+    </ol>
+    
+    </body>
+    </html>
+    
+Sauvegardez le fichier et donnez lui le nom que vous souhaitez, je l'ai appelé `first.html`. Pour le besoin du test, créez un nouveau fichier python et appelez comme vous le souhaitez, dans mon cas `1erpage.py`.
+
+    from flask import Flask,render_template
+    app = Flask(__name__)
+    
+    @app.route('/')
+    def hello_world():
+      return 'hello world!'
+    
+    @app.route('/hello/<name>')
+    def hello_paris(name):
+      return render_template('first.html',name=name)
+    
+    if __name__ == '__main__':
+      app.debug=True
+      app.run()
+
+L'option `render_template` permet d'afficher les pages web.
+
+Pour avoir la page web
+
+    python 1erpage.py
+    
+Puis `http://127.0.0.1:5000/hello/toto`dans votre browser web
+
+![Alt text](https://raw.githubusercontent.com/kwokandy/captures/master/Capture%20d%E2%80%99%C3%A9cran%202014-11-27%20%C3%A0%2007.25.31.png)
+
+
 
