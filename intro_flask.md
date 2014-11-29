@@ -69,14 +69,14 @@ Vous y êtes, l'écriture de votre premier script sous `flask`. Dans le réperto
     
 Taper les lignes ci-dessous 
     
-    ```python
+```python
     from flask import Flask
     app = Flask(__name__)
 
     @app.route('/')
     def hello_world():
         return 'hello world!'
-    ```
+```
 
 Sauvegarder le fichier en pressant la touche `esc` suivi des touches `:wq`
 
@@ -108,7 +108,7 @@ Une fois , fait, créer une page html
     vi first.html
     
 Et mettez le code que vous souhaitez, moi j'ai mis ça 
-    ```html
+```html
     <!DOCTYPE html>
     <html>
     
@@ -126,10 +126,10 @@ Et mettez le code que vous souhaitez, moi j'ai mis ça
     
     </body>
     </html>
-    ```
+```
     
 Sauvegardez le fichier et donnez lui le nom que vous souhaitez, je l'ai appelé `first.html`. Pour le besoin du test, créez un nouveau fichier python et appelez comme vous le souhaitez, dans mon cas `1erpage.py`.
-    ```python
+```python
     from flask import Flask,render_template
     app = Flask(__name__)
     
@@ -144,7 +144,7 @@ Sauvegardez le fichier et donnez lui le nom que vous souhaitez, je l'ai appelé 
     if __name__ == '__main__':
       app.debug=True
       app.run()
-    ```
+```
 L'option `render_template` permet d'afficher les pages web.
 
 Pour avoir la page web
