@@ -68,6 +68,7 @@ Vous y êtes, l'écriture de votre premier script sous `flask`. Dans le réperto
     vi flasktest.py
     
 Taper les lignes ci-dessous 
+    
     ```python
     
     from flask import Flask
