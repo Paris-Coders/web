@@ -75,7 +75,7 @@ Taper les lignes ci-dessous
     @app.route('/')
     def hello_world():
         return 'hello world!'
-    ````
+    ```
 
 Sauvegarder le fichier en pressant la touche `esc` suivi des touches `:wq`
 
